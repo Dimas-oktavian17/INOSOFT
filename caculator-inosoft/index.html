@@ -8,10 +8,60 @@
   <title>Calculator-Inosoft</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <div class="d-flex flex-col justify-content-center align-items-center" style="height: 100vh; width: 100vw;">
 
+    <div id="calculator">
+      <div class="d-flex flex-col justify-content-center align-items-center">
+
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <input type="text" id="display" readonly />
+        </div>
+      </div>
+
+      <div class="keypad">
+        <!-- one -->
+        <div class="row">
+          <div class="col-3"><button class="operator" id="clear">C</button></div>
+          <div class="col-3"><button class="operator" id="negate">+/-</button></div>
+          <div class="col-3"><button class="operator" id="percent">%</button></div>
+          <div class="col-3"><button class="operator" id="divide">/</button></div>
+        </div>
+        <!-- two -->
+        <div class="row">
+          <div class="col-3"><button class="number   rounded-circle" id="7">7</button></div>
+          <div class="col-3"><button class="number   rounded-circle" id="8">8</button></div>
+          <div class="col-3"><button class="number   rounded-circle" id="9">9</button></div>
+          <div class="col-3"><button class="operator" id="multiply">*</button></div>
+        </div>
+        <!-- three -->
+        <div class="row">
+          <div class="col-3"><button class="number   rounded-circle" id="4">4</button></div>
+          <div class="col-3"><button class="number   rounded-circle" id="5">5</button></div>
+          <div class="col-3"><button class="number   rounded-circle" id="6">6</button></div>
+          <div class="col-3"><button class="operator" id="subtract">-</button></div>
+        </div>
+        <!-- four -->
+        <div class="row">
+          <div class="col-3"><button class="number rounded-circle" id="1">1</button></div>
+          <div class="col-3"><button class="number rounded-circle" id="2">2</button></div>
+          <div class="col-3"><button class="number rounded-circle" id="3">3</button></div>
+          <div class="col-3"><button class="operator" id="add">+</button></div>
+        </div>
+        <!-- five -->
+        <div class="row">
+          <div class="col-6"><button style="width: 100%;" class="number rounded-pill" id="0">0</button></div>
+          <div class="col-3"><button class="operator" id="decimal">.</button></div>
+          <div class="col-3"><button class="operator" id="equals">=</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
   <script type="module" src="/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
