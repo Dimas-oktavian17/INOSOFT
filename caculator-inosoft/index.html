@@ -14,53 +14,169 @@
 <body>
   <div class="d-flex flex-col justify-content-center align-items-center" style="height: 100vh; width: 100vw;">
 
-    <div id="calculator">
-      <div class="d-flex flex-col justify-content-center align-items-center">
-
+    <div
+      style="width: 410px; height: 724px; position: relative; background: #EEF1F4; box-shadow: 8px 9px 12px rgba(60.59, 60.59, 60.59, 0.40); border-radius: 20px; overflow: hidden; border: 2px rgba(255, 255, 255, 0.30) solid">
+      <div
+        style="width: 410px; height: 445px; left: 0px; top: 279px; position: absolute; background: rgba(203, 214, 222, 0.50); box-shadow: 93px 93px 93px; filter: blur(93px)">
       </div>
-      <div class="row">
-        <div class="col-12">
-          <input type="text" id="display" readonly />
-        </div>
+      <div
+        style="width: 219px; height: 373px; left: 392px; top: 30px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: rgba(192.94, 207.01, 216.38, 0.60); box-shadow: 47px 47px 47px; filter: blur(47px)">
       </div>
+      <div
+        style="width: 413px; height: 445px; left: 0px; top: 279px; position: absolute; background: linear-gradient(180deg, rgba(206.97, 206.97, 219.58, 0.30) 0%, rgba(114, 114, 127, 0) 100%); border-top-left-radius: 20px; border-top-right-radius: 20px">
+      </div>
+      <div style="width: 351px; height: 400px; left: 29px; top: 301px; position: absolute">
+        <div style="width: 158px; height: 62px; left: 0px; top: 338px; position: absolute">
 
-      <div class="keypad">
-        <!-- one -->
-        <div class="row">
-          <div class="col-3"><button class="operator" id="clear">C</button></div>
-          <div class="col-3"><button class="operator" id="negate">+/-</button></div>
-          <div class="col-3"><button class="operator" id="percent">%</button></div>
-          <div class="col-3"><button class="operator" id="divide">/</button></div>
+          <div style="width: 14.20px; height: 21.55px; 
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%); ">
+            <h3>0</h3>
+          </div>
         </div>
-        <!-- two -->
-        <div class="row">
-          <div class="col-3"><button class="number   rounded-circle" id="7">7</button></div>
-          <div class="col-3"><button class="number   rounded-circle" id="8">8</button></div>
-          <div class="col-3"><button class="number   rounded-circle" id="9">9</button></div>
-          <div class="col-3"><button class="operator" id="multiply">*</button></div>
+        <div style="width: 61px; height: 62px; left: 6px; top: 0px; position: absolute">
+          <div
+            style="width: 61px; height: 62px; left: 0px; top: 0px; position: absolute; background: linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EEF1F4 0%, #EEF1F4 100%); border-radius: 12px">
+          </div>
+          <div style="width: 19.09px; height: 22.66px; left: 21px; top: 20px; position: absolute; background: #3D3D3D">
+          </div>
         </div>
-        <!-- three -->
-        <div class="row">
-          <div class="col-3"><button class="number   rounded-circle" id="4">4</button></div>
-          <div class="col-3"><button class="number   rounded-circle" id="5">5</button></div>
-          <div class="col-3"><button class="number   rounded-circle" id="6">6</button></div>
-          <div class="col-3"><button class="operator" id="subtract">-</button></div>
+        <div style="width: 61px; height: 62px; left: 5px; top: 258px; position: absolute">
+          <div
+            style="width: 61px; height: 62px; left: 0px; top: 0px; position: absolute; background: linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EEF1F4 0%, #EEF1F4 100%); border-radius: 30px">
+          </div>
+          <div style="width: 7.75px; height: 20.89px; left: 24px; top: 21px; position: absolute; background: #3D3D3D">
+          </div>
         </div>
-        <!-- four -->
-        <div class="row">
-          <div class="col-3"><button class="number rounded-circle" id="1">1</button></div>
-          <div class="col-3"><button class="number rounded-circle" id="2">2</button></div>
-          <div class="col-3"><button class="number rounded-circle" id="3">3</button></div>
-          <div class="col-3"><button class="operator" id="add">+</button></div>
+        <div style="width: 61px; height: 62px; left: 5px; top: 169px; position: absolute">
+          <div
+            style="width: 61px; height: 62px; left: 0px; top: 0px; position: absolute; background: linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EEF1F4 0%, #EEF1F4 100%); border-radius: 30px">
+          </div>
+          <div style="width: 14.93px; height: 21.04px; left: 23px; top: 20px; position: absolute; background: #3D3D3D">
+          </div>
         </div>
-        <!-- five -->
-        <div class="row">
-          <div class="col-6"><button style="width: 100%;" class="number rounded-pill" id="0">0</button></div>
-          <div class="col-3"><button class="operator" id="decimal">.</button></div>
-          <div class="col-3"><button class="operator" id="equals">=</button></div>
+        <div style="width: 61px; height: 62px; left: 5px; top: 86px; position: absolute">
+          <div
+            style="width: 61px; height: 62px; left: 0px; top: 0px; position: absolute; background: linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EEF1F4 0%, #EEF1F4 100%); border-radius: 30px">
+          </div>
+          <div style="width: 14.59px; height: 20.62px; left: 23px; top: 21px; position: absolute; background: #3D3D3D">
+          </div>
+        </div>
+        <div style="width: 61px; height: 62px; left: 97px; top: 258px; position: absolute">
+          <div
+            style="width: 61px; height: 62px; left: 0px; top: 0px; position: absolute; background: linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EEF1F4 0%, #EEF1F4 100%); border-radius: 30px">
+          </div>
+          <div style="width: 14.50px; height: 21.05px; left: 23px; top: 20px; position: absolute; background: #3D3D3D">
+          </div>
+        </div>
+        <div style="width: 61px; height: 62px; left: 98px; top: 169px; position: absolute">
+          <div
+            style="width: 61px; height: 62px; left: 0px; top: 0px; position: absolute; background: linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EEF1F4 0%, #EEF1F4 100%); border-radius: 30px">
+          </div>
+          <div style="width: 14.44px; height: 21.15px; left: 23px; top: 20px; position: absolute; background: #3D3D3D">
+          </div>
+        </div>
+        <div style="width: 61px; height: 62px; left: 98px; top: 86px; position: absolute">
+          <div
+            style="width: 61px; height: 62px; left: 0px; top: 0px; position: absolute; background: linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EEF1F4 0%, #EEF1F4 100%); border-radius: 30px">
+          </div>
+          <div style="width: 14.41px; height: 21.64px; left: 23px; top: 20px; position: absolute; background: #3D3D3D">
+          </div>
+        </div>
+        <div style="width: 61px; height: 62px; left: 97px; top: 0px; position: absolute">
+          <div
+            style="width: 61px; height: 62px; left: 0px; top: 0px; position: absolute; background: linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EEF1F4 0%, #EEF1F4 100%); border-radius: 12px">
+          </div>
+          <div style="width: 29.72px; height: 37px; left: 16px; top: 14px; position: absolute">
+            <div
+              style="width: 13.42px; height: 23px; left: 0px; top: 2.82px; position: absolute; color: #3D3D3D; font-size: 20px; font-family: Helvetica; font-weight: 400; word-wrap: break-word">
+              +</div>
+            <div
+              style="width: 10.02px; height: 34.19px; left: 13.93px; top: 0px; position: absolute; transform: rotate(11.03deg); transform-origin: 0 0; color: #3D3D3D; font-size: 30px; font-family: Helvetica; font-weight: 400; word-wrap: break-word">
+              /</div>
+            <div
+              style="width: 11.18px; height: 34px; left: 18.54px; top: 3px; position: absolute; color: #3D3D3D; font-size: 30px; font-family: Helvetica; font-weight: 400; word-wrap: break-word">
+              -</div>
+          </div>
+        </div>
+        <div style="width: 61px; height: 62px; left: 194px; top: 258px; position: absolute">
+          <div
+            style="width: 61px; height: 62px; left: 0px; top: 0px; position: absolute; background: linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EEF1F4 0%, #EEF1F4 100%); border-radius: 30px">
+          </div>
+          <div style="width: 14.66px; height: 21.58px; left: 23px; top: 20px; position: absolute; background: #3D3D3D">
+          </div>
+        </div>
+        <div style="width: 61px; height: 62px; left: 195px; top: 169px; position: absolute">
+          <div
+            style="width: 61px; height: 62px; left: 0px; top: 0px; position: absolute; background: linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EEF1F4 0%, #EEF1F4 100%); border-radius: 30px">
+          </div>
+          <div style="width: 14.38px; height: 21.61px; left: 23px; top: 20px; position: absolute; background: #3D3D3D">
+          </div>
+        </div>
+        <div style="width: 61px; height: 62px; left: 195px; top: 86px; position: absolute">
+          <div
+            style="width: 61px; height: 62px; left: 0px; top: 0px; position: absolute; background: linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EEF1F4 0%, #EEF1F4 100%); border-radius: 30px">
+          </div>
+          <div style="width: 14.18px; height: 21.59px; left: 23px; top: 20px; position: absolute; background: #3D3D3D">
+          </div>
+        </div>
+        <div style="width: 61px; height: 62px; left: 196px; top: 0px; position: absolute">
+          <div
+            style="width: 61px; height: 62px; left: 0px; top: 0px; position: absolute; background: linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EEF1F4 0%, #EEF1F4 100%); border-radius: 12px">
+          </div>
+          <div style="width: 24.58px; height: 21.45px; left: 18px; top: 20px; position: absolute; background: #3D3D3D">
+          </div>
+        </div>
+        <div style="width: 89px; height: 62px; left: 181px; top: 338px; position: absolute">
+          <div
+            style="width: 89px; height: 62px; left: 0px; top: 0px; position: absolute; background: linear-gradient(0deg, #B9B9B9 0%, #B9B9B9 100%), linear-gradient(0deg, #B9B9B9 0%, #B9B9B9 100%), linear-gradient(0deg, #B9B9B9 0%, #B9B9B9 100%); border-radius: 30px">
+          </div>
+          <div
+            style="width: 19.01px; height: 33px; left: 34.23px; top: 16.82px; position: absolute; color: black; font-size: 30px; font-family: Helvetica; font-weight: 400; word-wrap: break-word">
+            ,</div>
+        </div>
+        <div style="width: 61px; height: 62px; left: 288px; top: 170px; position: absolute">
+          <div
+            style="width: 61px; height: 62px; left: 0px; top: 0px; position: absolute; background: linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EEF1F4 0%, #EEF1F4 100%); border-radius: 12px">
+          </div>
+          <div style="width: 28px; height: 3px; left: 16px; top: 29px; position: absolute; background: #3D3D3D"></div>
+        </div>
+        <div style="width: 61px; height: 62px; left: 287px; top: 256px; position: absolute">
+          <div
+            style="width: 61px; height: 62px; left: 0px; top: 0px; position: absolute; background: linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EEF1F4 0%, #EEF1F4 100%); border-radius: 12px">
+          </div>
+          <img style="width: 26px; height: 26px; left: 17px; top: 18px; position: absolute"
+            src="https://via.placeholder.com/26x26" />
+        </div>
+        <div style="width: 61px; height: 62px; left: 290px; top: 86px; position: absolute">
+          <div
+            style="width: 61px; height: 62px; left: 0px; top: 0px; position: absolute; background: linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EEF1F4 0%, #EEF1F4 100%); border-radius: 12px">
+          </div>
+          <img style="width: 22.52px; height: 22.27px; left: 19px; top: 20px; position: absolute"
+            src="https://via.placeholder.com/23x22" />
+        </div>
+        <div style="width: 28px; height: 12px; left: 303px; top: 363px; position: absolute">
+          <div style="width: 28px; height: 3px; left: 0px; top: 0px; position: absolute; background: #3D3D3D"></div>
+          <div style="width: 28px; height: 3px; left: 0px; top: 9px; position: absolute; background: #3D3D3D"></div>
+        </div>
+        <div style="width: 61px; height: 62px; left: 288px; top: 1px; position: absolute">
+          <div
+            style="width: 61px; height: 62px; left: 0px; top: 0px; position: absolute; background: linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EAF0F4 0%, #EAF0F4 100%), linear-gradient(0deg, #EEF1F4 0%, #EEF1F4 100%); border-radius: 12px">
+          </div>
+          <div style="width: 27px; height: 21px; left: 17px; top: 20px; position: absolute">
+            <div style="width: 27px; height: 3px; left: 0px; top: 9px; position: absolute; background: #3D3D3D"></div>
+            <div
+              style="width: 5px; height: 5px; left: 11px; top: 0px; position: absolute; background: #3D3D3D; border-radius: 9999px">
+            </div>
+            <div
+              style="width: 5px; height: 5px; left: 11px; top: 16px; position: absolute; background: #3D3D3D; border-radius: 9999px">
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
   </div>
   <script type="module" src="/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
